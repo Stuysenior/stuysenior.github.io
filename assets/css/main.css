@@ -1893,6 +1893,14 @@
 				.icon.circle.fa-dribbble:hover {
 					background: #df93b8;
 				}
+            .icon.circle.fa-envelope-o {
+				background: #da83ae;
+				color: #fff;
+			}
+
+				.icon.circle.fa-envelope-o:hover {
+					background: #df93b8;
+				}
 
 		.icon.featured {
 			cursor: default;
@@ -2130,7 +2138,7 @@
 				}
 
 		.wrapper.style3 {
-			background: #fff;
+			background: #efefef;
 			color: inherit;
 		}
 

@@ -1,115 +1,137 @@
 <!DOCTYPE HTML>
 <!--
-	EYYYY IZ DA TAHSEEN!!!!! 
+	EYYYY IZ DA TAHSEEN!!!!!
 -->
 <html>
-	<head>
-		<title>Stuyvesant Senior Caucus</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="index">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Senior <span>Caucus</span></a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><strong><a href="http://www.stuysu.org"><i>Student Union</i></a></strong></li>
-				            <li><a href="calendar.html">Calendar</a></li>
-				            <li><a href="team.html">The Team</a></li>
-                            <li><a href="suggestions.html">Suggestions</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-				        </ul>
-					</nav>
-				</header>
+<head>
+	<title>Stuyvesant Senior Caucus</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
-			<!-- Banner -->
-				<section id="banner">
+	<script src="assets/js/countdown.js"></script>
+</head>
 
-					<!--
+<body class="index">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1 id="logo"><a href="index.html">Senior <span>Caucus</span></a></h1>
+			<nav id="nav">
+				<ul>
+					<li><strong><a href="http://www.stuysu.org"><i>Student Union</i></a></strong></li>
+					<li><a href="calendar.html">Calendar</a></li>
+					<li><a href="team.html">The Team</a></li>
+					<li><a href="suggestions.html">Suggestions</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+
+			<!--
 						".inner" is set up as an inline-block so it automatically expands
 						in both directions to fit whatever's inside it. This means it won't
 						automatically wrap lines, so be sure to use line breaks where
 						appropriate (<br />).
 					-->
-					<div class="inner">
+			<div class="inner">
 
-						<header>
-							<h2>Senior</h2>
-						</header>
-						<p>Leaving
-						<br />
-						<i>a</i>
-						<br />
-						<strong>legacy</strong>
-						<footer>
-							<ul class="buttons vertical">
-								<li><a href="contact.html" class="button fit scrolly">Contact Us</a></li>
-							</ul>
-						</footer>
-
-					</div>
-
-				</section>
-
-			<!-- Main -->
-				<article id="main">
-
-					<!-- Three -->
-						<section class="wrapper style3 container special">
-                            <div class="inner">
-		                      <article class="feature left">
-						<iframe src="http://stuyvesant-senior-caucus.sitefly.co/news" style="border:0px #FFFFFF none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%"></iframe>
-                              </article>
-                            </div>
-						</section>
-
-				</article>
-
-			<!-- CTA -->
-				<section id="cta">
-
-					<header>
-						<h2>Suggestions?</h2>
-						<p>Have an idea?</p>
-					</header>
+				<header>
+					<h2>Senior</h2>
+				</header>
+				<p>Leaving
+					<br />
+					<i>a</i>
+					<br />
+					<strong>legacy</strong>
 					<footer>
-				        <a href="suggestions.html" class="button special">Suggest it today!</a>
+						<ul class="buttons vertical">
+							<li><a href="contact.html" class="button fit scrolly">Contact Us</a></li>
+						</ul>
 					</footer>
 
-				</section>
+			</div>
 
-			<!-- Footer -->
-				<footer id="footer">
+		</section>
 
-					<ul class="icons">
-						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="mailto:senior@stuysu.org" class="icon circle fa-envelope-o"><span class="label">Facebook</span></a></li>
-					</ul>
+		<!-- Main -->
+		<article id="main">
+			<script>
+				var councilMeeting = new Countdown({
+					year: 2016,
+					month: 9,
+					day: 9,
+					hour: 9,
+					ampm: "am",
+					minute: 9,
+					second: 9,
+					style: "flip",
+					rangeHi: "day",
+					fadeInMS: 500,
+					truncate: true
 
-					<ul class="copyright">
-						<li>&copy; Stuyvesant Senior Caucus</li>
-					</ul>
+				});
+			</script>
 
-				</footer>
+			<!-- Three -->
+			<section class="wrapper style3 container special">
+				<div class="inner">
+					<article class="feature left">
+						<iframe src="http://stuyvesant-senior-caucus.sitefly.co/news" style="border:0px #FFFFFF none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%"></iframe>
+					</article>
+				</div>
+			</section>
 
-		</div>
+		</article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<!-- CTA -->
+		<section id="cta">
 
-	</body>
+			<header>
+				<h2>Suggestions?</h2>
+				<p>Have an idea?</p>
+			</header>
+			<footer>
+				<a href="suggestions.html" class="button special">Suggest it today!</a>
+			</footer>
+
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+
+			<ul class="icons">
+				<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="mailto:senior@stuysu.org" class="icon circle fa-envelope-o"><span class="label">Facebook</span></a></li>
+			</ul>
+
+			<ul class="copyright">
+				<li>&copy; Stuyvesant Senior Caucus</li>
+			</ul>
+
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollgress.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!-- <script src="assets/js/countdown.js"></script> -->
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

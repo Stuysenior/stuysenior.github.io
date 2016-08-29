@@ -48,6 +48,28 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	p.iHateCSS {
+		font-size: 32px;
+		text-align: center;
+	}
+
+	#laszlo-blurred {
+		background-image: url('http://senior.stuysu.org/images/laszlo.webp');
+		background-size: contain;
+		height: 300px;
+		width: 300px;
+		box-shadow: 0px 0px 15px 15px white inset;
+	}
+
+	#max-blurred {
+		background-image: url('http://senior.stuysu.org/images/max.webp');
+		background-size: contain;
+		height: 300px;
+		width: 300px;
+		box-shadow: 0px 0px 15px 15px white inset;
+	}
+
+
 /* Box Model */
 
 	*, *:before, *:after {

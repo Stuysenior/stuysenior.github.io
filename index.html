@@ -64,28 +64,36 @@
 
 		<!-- Main -->
 		<article id="main">
-			<script>
-				var councilMeeting = new Countdown({
-					year: 2016,
-					month: 9,
-					day: 9,
-					hour: 9,
-					ampm: "am",
-					minute: 9,
-					second: 9,
-					style: "flip",
-					rangeHi: "day",
-					fadeInMS: 500,
-					truncate: true
-
-				});
-			</script>
-
+            <section class="wrapper style2 container">
+                <center>
+                    <h2><b>Time Until Next Advisory Council Meeting:</b></h2>
+                <script>
+                    var councilMeeting = new Countdown({
+                        height: 100,
+                        year: 2016,
+                        month: 9,
+                        day: 9,
+                        hour: 9,
+                        ampm: "am",
+                        minute: 9,
+                        second: 9,
+                        style: "flip",
+                        rangeHi: "day",
+                        fadeInMS: 1800,
+                        truncate: true,
+                        interval : 1000
+                    });
+                </script>
+                </center>
+            </section>
+            
+            
 			<!-- Three -->
 			<section class="wrapper style3 container special">
 				<div class="inner">
 					<article class="feature left">
-						<iframe src="http://stuyvesant-senior-caucus.sitefly.co/news" style="border:0px #FFFFFF none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%"></iframe>
+						<iframe src="http://stuyvesant-senior-caucus.sitefly.co/news" style="border:0px #FFFFFF none;" name="myiFrame" frameborder="1" marginheight="0px" marginwidth="0px" height="950px" width="100%" id="iframe_news" scrolling="no"></iframe>
+                        <!-- 950px is just enough to hide post under "atrium makeover" so when new posts come, height will be subject to change -->
 					</article>
 				</div>
 			</section>
@@ -109,7 +117,7 @@
 		<footer id="footer">
 
 			<ul class="icons">
-				<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.facebook.com/Stuyvesant-Senior-Caucus-731255060334426/" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
 				<li><a href="mailto:senior@stuysu.org" class="icon circle fa-envelope-o"><span class="label">Facebook</span></a></li>
 			</ul>
 
@@ -128,9 +136,9 @@
 	<script src="assets/js/jquery.scrollgress.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
-	<!-- <script src="assets/js/countdown.js"></script> -->
+	<script src="assets/js/countdown.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="assets/js/main.js"></script> 
 
 </body>
 

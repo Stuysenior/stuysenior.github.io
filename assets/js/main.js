@@ -69,6 +69,9 @@
 			// Navigation Panel.
 				$(
 					'<div id="navPanel">' +
+                        '<hr>' +
+                        '<nav><a href="#"><h2><strong>Senior Caucus</strong></h2></a></nav>' + 
+                        '<hr>' +
 						'<nav>' +
 							$('#nav').navList() +
 						'</nav>' +

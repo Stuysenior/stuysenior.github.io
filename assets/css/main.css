@@ -1634,6 +1634,11 @@
 			border: 0;
 		}
 
+    h1 {
+		font-size: 1.5em;
+		letter-spacing: 0.2em;
+	}
+
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0.1em;
@@ -2139,7 +2144,7 @@
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("images/light-tl.svg"), url("images/light-tr.svg");
+			background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2629,6 +2634,17 @@
 
 			#header nav ul li {
 				margin-left: 1em;
+			}
+        
+            #header nav ul li h1#logo {
+                /*
+                padding-left: auto;
+                width: 100%;
+		  */	
+            }
+        
+            #header nav ul li.spacer {
+                width: 100%;
 			}
 
 		/* Banner */

@@ -12,9 +12,9 @@ window.fbAsyncInit = function () {
         version: 'v2.7'
     });
 
-    FB.api('/201692260175914', {
+    FB.api('/731255060334426', {
         fields: 'posts',
-        access_token: 'EAASXUsW8ZCDUBALcucPxdxXd0pIUWmwvwuOxJzvUH9qzBK574NEuQTQORAvmMwaEJJuBqHcZAIGwGSxZB0gtj5ZAW1TizuUhMpKpeUfz0Dmfv08uAs6OZBM8dhBh3tT3eKmkGFqV6Ey87MyYokDDjLloHvZBwqTRlMnrcCLqh0QAZDZD'
+        access_token: 'EAACzXMF1AMgBAEfQwVZCIBDw7VojRQm7p3Q5DdsV9Hd01pKbvHuR8sXxkYFffijEStJU0crTzVbAU8W2MdAZCtv5wzXL5jAwkCSy4kNjkEw4BZArUWXp80NZA4VyYCFwewnU7lxBElj0q2QcxcDkVV1ix3UZB4oo4aPDfojoWivyFZADpryLZA4'
     }, function (response) {
 
         //console.log(response["posts"]["data"]);
@@ -28,7 +28,7 @@ window.fbAsyncInit = function () {
             if (msg != undefined) {
                 document.getElementById("news").innerHTML += `
                 <section class="wrapper style4 container special">
-                    <div class="row" style="white-space:pre-line">
+                    <div class="row" style="white-space:pre-wrap;overflow-wrap: break-word;">
                         <div class="4u important" style="padding-right:20px;border-right: 1px solid #ccc; ">
                             <img src="images/SU_Logo.jpg" width=70%>
                             <br>
